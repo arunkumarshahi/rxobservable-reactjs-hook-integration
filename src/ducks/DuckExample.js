@@ -11,8 +11,8 @@ function DuckExample() {
   console.log(counter);
   return (
     <div>
-      <p>You clicked {JSON.stringify(counter)} times</p>
-      <p>You pinged {JSON.stringify(isPinging)} times</p>
+      <p>You clicked ::::: {JSON.stringify(counter)} times</p>
+      <p>You pinged :::::: {JSON.stringify(isPinging)} times</p>
       <button onClick={(e) => dispatch(fetchUser('redux-observable'))}>Fetch user</button>
       <button onClick={(e) => dispatch(fetchPing())}>Fetch ping</button>
     </div>
